@@ -1,3 +1,29 @@
 body {
     background-color: aquamarine;
 }
+
+.flex-container_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_me {
+    border: 1px  solid black;
+    width: 70px;
+    align-items: center;
+  }
+
+  section{ 
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+  }
+img{
+    height: 200px;
+    width: 280px;
+    border-style: none;
+    border-radius: 10px;
+
+}
