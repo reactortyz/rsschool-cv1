@@ -1,5 +1,10 @@
-body {
-    background-color: aquamarine;
+.width1024{
+  width: 1024px;
+    background: #D75E5E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .flex-container_header{
@@ -50,4 +55,10 @@ img{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+footer, .Contacts{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;  
 }
